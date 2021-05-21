@@ -767,7 +767,7 @@ function getTicForDate(mm, dd, yyyy, hh, mi, ss) {
    for (let i = 0; i < yyyy.length; i++) {
      ttctParser.push(String(yyyy)[ttctCounter - 1]);
      ttctCounter += 1;
-     yield;
+
    }
    ttctParser.splice(1 - 1, 1);
    ttctParser.splice(1 - 1, 1);
@@ -776,7 +776,6 @@ function getTicForDate(mm, dd, yyyy, hh, mi, ss) {
      ttctStorageUnit1 =
        "" + ttctStorageUnit1 + ttctParser[1 - 1];
      ttctParser.splice(1 - 1, 1);
-     yield;
    }
    tictimecallibratedtimeDays +=
      ttctStorageUnit1 * 365.25;
@@ -830,7 +829,6 @@ function getTicForDate(mm, dd, yyyy, hh, mi, ss) {
    for (let i = 0; i < yyyy.length; i++) {
      ttctParser.push(String(yyyy)[ttctCounter - 1]);
      ttctCounter += 1;
-     yield;
    }
    ttctParser.splice(1 - 1, 1);
    ttctParser.splice(1 - 1, 1);
@@ -839,7 +837,6 @@ function getTicForDate(mm, dd, yyyy, hh, mi, ss) {
      ttctStorageUnit1 =
        "" + ttctStorageUnit1 + ttctParser[1 - 1];
      ttctParser.splice(1 - 1, 1);
-     yield;
    }
    tictimecallibratedtimeDays +=
      ttctStorageUnit1 * 365.25;
