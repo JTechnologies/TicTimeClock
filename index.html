@@ -21,7 +21,7 @@
         var timeDisplay = document.getElementById('time');
         setInterval(
           function(){
-            dateDisplay.innerHTML=(String(currentGigatic()+(currentLicotic()*.1)+(currentKilotic()*.01)+(currentHectotic()*.001))+"0000000000").substring(0,5);
+            dateDisplay.innerHTML=(String(currentGigatic()+(currentLicotic()*.1)+(currentKilotic()*.01)+(currentHectotic()*.001))+"0000000000").substring(0,6);
             timeDisplay.innerHTML=(String((currentDecatic()+(currentTic()*.1)+(currentDecitic()*.01)+(currentCentitic()*.001)))+"00000").substring(0,5);
             },1);
     </script>
