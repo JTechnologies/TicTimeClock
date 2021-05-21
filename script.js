@@ -1,4 +1,4 @@
-function currentmegatic(){
+function currentMegatic(){
     megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
