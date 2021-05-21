@@ -1,5 +1,5 @@
-function currentGigatic(){
-       gigatic = Math.floor(
+function currentmegatic(){
+       megatic = Math.floor(
         ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
           new Date().getTimezoneOffset()) /
           60 /
@@ -12,7 +12,7 @@ function currentGigatic(){
           60 /
           24 /
           365.25 -
-          gigatic) *
+          megatic) *
           10
       );
       kilotic = Math.floor(
@@ -21,7 +21,7 @@ function currentGigatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1) *
           100
       );
@@ -31,7 +31,7 @@ function currentGigatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01) *
           1000
@@ -42,7 +42,7 @@ function currentGigatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001) *
@@ -54,7 +54,7 @@ function currentGigatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -67,7 +67,7 @@ function currentGigatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -81,7 +81,7 @@ function currentGigatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -90,11 +90,11 @@ function currentGigatic(){
           decitic * 0.000001) *
           10000000
       );
-      return(gigatic)
+      return(megatic)
 }
 
 function currentLicotic(){
-       gigatic = Math.floor(
+       megatic = Math.floor(
         ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
           new Date().getTimezoneOffset()) /
           60 /
@@ -107,7 +107,7 @@ function currentLicotic(){
           60 /
           24 /
           365.25 -
-          gigatic) *
+          megatic) *
           10
       );
       kilotic = Math.floor(
@@ -116,7 +116,7 @@ function currentLicotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1) *
           100
       );
@@ -126,7 +126,7 @@ function currentLicotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01) *
           1000
@@ -137,7 +137,7 @@ function currentLicotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001) *
@@ -149,7 +149,7 @@ function currentLicotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -162,7 +162,7 @@ function currentLicotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -176,7 +176,7 @@ function currentLicotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -189,7 +189,7 @@ function currentLicotic(){
 }
 
 function currentKilotic(){
-       gigatic = Math.floor(
+       megatic = Math.floor(
         ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
           new Date().getTimezoneOffset()) /
           60 /
@@ -202,7 +202,7 @@ function currentKilotic(){
           60 /
           24 /
           365.25 -
-          gigatic) *
+          megatic) *
           10
       );
       kilotic = Math.floor(
@@ -211,7 +211,7 @@ function currentKilotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1) *
           100
       );
@@ -221,7 +221,7 @@ function currentKilotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01) *
           1000
@@ -232,7 +232,7 @@ function currentKilotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001) *
@@ -244,7 +244,7 @@ function currentKilotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -257,7 +257,7 @@ function currentKilotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -271,7 +271,7 @@ function currentKilotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -284,7 +284,7 @@ function currentKilotic(){
 }
 
 function currentHectotic(){
-       gigatic = Math.floor(
+       megatic = Math.floor(
         ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
           new Date().getTimezoneOffset()) /
           60 /
@@ -297,7 +297,7 @@ function currentHectotic(){
           60 /
           24 /
           365.25 -
-          gigatic) *
+          megatic) *
           10
       );
       kilotic = Math.floor(
@@ -306,7 +306,7 @@ function currentHectotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1) *
           100
       );
@@ -316,7 +316,7 @@ function currentHectotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01) *
           1000
@@ -327,7 +327,7 @@ function currentHectotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001) *
@@ -339,7 +339,7 @@ function currentHectotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -352,7 +352,7 @@ function currentHectotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -366,7 +366,7 @@ function currentHectotic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -379,7 +379,7 @@ function currentHectotic(){
 }
 
 function currentDecatic(){
-       gigatic = Math.floor(
+       megatic = Math.floor(
         ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
           new Date().getTimezoneOffset()) /
           60 /
@@ -392,7 +392,7 @@ function currentDecatic(){
           60 /
           24 /
           365.25 -
-          gigatic) *
+          megatic) *
           10
       );
       kilotic = Math.floor(
@@ -401,7 +401,7 @@ function currentDecatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1) *
           100
       );
@@ -411,7 +411,7 @@ function currentDecatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01) *
           1000
@@ -422,7 +422,7 @@ function currentDecatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001) *
@@ -434,7 +434,7 @@ function currentDecatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -447,7 +447,7 @@ function currentDecatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -461,7 +461,7 @@ function currentDecatic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -474,7 +474,7 @@ function currentDecatic(){
 }
 
 function currentTic(){
-       gigatic = Math.floor(
+       megatic = Math.floor(
         ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
           new Date().getTimezoneOffset()) /
           60 /
@@ -487,7 +487,7 @@ function currentTic(){
           60 /
           24 /
           365.25 -
-          gigatic) *
+          megatic) *
           10
       );
       kilotic = Math.floor(
@@ -496,7 +496,7 @@ function currentTic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1) *
           100
       );
@@ -506,7 +506,7 @@ function currentTic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01) *
           1000
@@ -517,7 +517,7 @@ function currentTic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001) *
@@ -529,7 +529,7 @@ function currentTic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -542,7 +542,7 @@ function currentTic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -556,7 +556,7 @@ function currentTic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -569,7 +569,7 @@ function currentTic(){
 }
 
 function currentDecitic(){
-       gigatic = Math.floor(
+       megatic = Math.floor(
         ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
           new Date().getTimezoneOffset()) /
           60 /
@@ -582,7 +582,7 @@ function currentDecitic(){
           60 /
           24 /
           365.25 -
-          gigatic) *
+          megatic) *
           10
       );
       kilotic = Math.floor(
@@ -591,7 +591,7 @@ function currentDecitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1) *
           100
       );
@@ -601,7 +601,7 @@ function currentDecitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01) *
           1000
@@ -612,7 +612,7 @@ function currentDecitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001) *
@@ -624,7 +624,7 @@ function currentDecitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -637,7 +637,7 @@ function currentDecitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -651,7 +651,7 @@ function currentDecitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -664,7 +664,7 @@ function currentDecitic(){
 }
 
 function currentCentitic(){
-       gigatic = Math.floor(
+       megatic = Math.floor(
         ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
           new Date().getTimezoneOffset()) /
           60 /
@@ -677,7 +677,7 @@ function currentCentitic(){
           60 /
           24 /
           365.25 -
-          gigatic) *
+          megatic) *
           10
       );
       kilotic = Math.floor(
@@ -686,7 +686,7 @@ function currentCentitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1) *
           100
       );
@@ -696,7 +696,7 @@ function currentCentitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01) *
           1000
@@ -707,7 +707,7 @@ function currentCentitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001) *
@@ -719,7 +719,7 @@ function currentCentitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -732,7 +732,7 @@ function currentCentitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -746,7 +746,7 @@ function currentCentitic(){
           60 /
           24 /
           365.25 -
-          gigatic -
+          megatic -
           licotic * 0.1 -
           kilotic * 0.01 -
           hectotic * 0.001 -
@@ -757,3 +757,134 @@ function currentCentitic(){
       );
       return(centitic)
 }
+  getTicForDate(mm, dd, yyyy, hh, mi, ss) {
+    if (yyyy > 2000) {
+      tictimecallibratedtimeDays = 0;
+      ttctCounter = 1;
+      asdfasdf = "";
+      asdfasdf = mm;
+      ttctParser = [];
+      for (let i = 0; i < yyyy.length; i++) {
+        ttctParser.push(String(yyyy)[ttctCounter - 1]);
+        ttctCounter += 1;
+        yield;
+      }
+      ttctParser.splice(1 - 1, 1);
+      ttctParser.splice(1 - 1, 1);
+      ttctStorageUnit1 = "";
+      for (let i = 0; i < ttctParser.length; i++) {
+        ttctStorageUnit1 =
+          "" + ttctStorageUnit1 + ttctParser[1 - 1];
+        ttctParser.splice(1 - 1, 1);
+        yield;
+      }
+      tictimecallibratedtimeDays +=
+        ttctStorageUnit1 * 365.25;
+      if (1 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (2 < mm) {
+        tictimecallibratedtimeDays += 28;
+      }
+      if (3 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (4 < mm) {
+        tictimecallibratedtimeDays += 30;
+      }
+      if (5 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (6 < mm) {
+        tictimecallibratedtimeDays += 30;
+      }
+      if (7 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (8 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (9 < mm) {
+        tictimecallibratedtimeDays += 30;
+      }
+      if (10 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (11 < mm) {
+        tictimecallibratedtimeDays += 30;
+      }
+      if (12 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      tictimecallibratedtimeDays += dd;
+      tictimecallibratedtimeDays += hh * 0.0416;
+      tictimecallibratedtimeDays += mi * 0.000694;
+      tictimecallibratedtimeDays += ss * 0.00001157407;
+      return(tictimecallliberatedtimeDays)
+    } else {
+      tictimecallibratedtimeDays = 0;
+      ttctCounter = 1;
+      asdfasdf = "";
+      asdfasdf = mm;
+      ttctParser = [];
+      for (let i = 0; i < yyyy.length; i++) {
+        ttctParser.push(String(yyyy)[ttctCounter - 1]);
+        ttctCounter += 1;
+        yield;
+      }
+      ttctParser.splice(1 - 1, 1);
+      ttctParser.splice(1 - 1, 1);
+      ttctStorageUnit1 = "";
+      for (let i = 0; i < ttctParser.length; i++) {
+        ttctStorageUnit1 =
+          "" + ttctStorageUnit1 + ttctParser[1 - 1];
+        ttctParser.splice(1 - 1, 1);
+        yield;
+      }
+      tictimecallibratedtimeDays +=
+        ttctStorageUnit1 * 365.25;
+      if (1 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (2 < mm) {
+        tictimecallibratedtimeDays += 28;
+      }
+      if (3 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (4 < mm) {
+        tictimecallibratedtimeDays += 30;
+      }
+      if (5 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (6 < mm) {
+        tictimecallibratedtimeDays += 30;
+      }
+      if (7 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (8 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (9 < mm) {
+        tictimecallibratedtimeDays += 30;
+      }
+      if (10 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      if (11 < mm) {
+        tictimecallibratedtimeDays += 30;
+      }
+      if (12 < mm) {
+        tictimecallibratedtimeDays += 31;
+      }
+      tictimecallibratedtimeDays += dd;
+      tictimecallibratedtimeDays += hh * 0.0416;
+      tictimecallibratedtimeDays += mi * 0.000694;
+      tictimecallibratedtimeDays += ss * 0.00001157407;
+      tictimecallibratedtimeDays =
+        "" + "-" + tictimecallibratedtimeDays;
+      return(tictimecalllibratedtimeDays)
+    }
+  }
