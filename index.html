@@ -21,12 +21,12 @@
         var timeDisplay = document.getElementById('time');
         setInterval(
           function(){
-            dateDisplay.innerHTML=(String(currentGigatic()+(currentLicotic()*.1)+(currentKilotic()*.01)+(currentHectotic()*.001))+"0000000000").substring(0,6);
+            dateDisplay.innerHTML=(String(currentMegatic()+(currentLicotic()*.1)+(currentKilotic()*.01)+(currentHectotic()*.001))+"0000000000").substring(0,6);
             timeDisplay.innerHTML=(String((currentDecatic()+(currentTic()*.1)+(currentDecitic()*.01)+(currentCentitic()*.001)))+"00000").substring(0,5);
             },1);
     </script>
-        <h3>Gigatic</h3>
-    <h1 id="gigatic"></h1>
+        <h3>Megatic</h3>
+    <h1 id="Megatic"></h1>
     <h3>Licotic</h3>
     <h1 id="licotic"></h1>
     <h3>Hectotic</h3>
@@ -43,7 +43,7 @@
     <h1 id="centitic"></h1>
     </div>
     <script type="text/javascript">
-        var gigaticDisplay = document.getElementById('gigatic');
+        var MegaticDisplay = document.getElementById('Megatic');
         var licoticDisplay = document.getElementById('licotic');
         var kiloticDisplay = document.getElementById('kilotic');
         var hectoticDisplay = document.getElementById('hectotic');
@@ -52,7 +52,7 @@
         var deciticDisplay = document.getElementById('decitic');
         var centiticDisplay = document.getElementById('centitic');
 
-        setInterval(function(){gigaticDisplay.innerHTML=currentGigatic();licoticDisplay.innerHTML=currentLicotic();kiloticDisplay.innerHTML=currentKilotic();hectoticDisplay.innerHTML=currentHectotic();decaticDisplay.innerHTML=currentDecatic();ticDisplay.innerHTML=currentTic();deciticDisplay.innerHTML=currentDecitic();centiticDisplay.innerHTML=currentCentitic();},1)
+        setInterval(function(){MegaticDisplay.innerHTML=currentMegatic();licoticDisplay.innerHTML=currentLicotic();kiloticDisplay.innerHTML=currentKilotic();hectoticDisplay.innerHTML=currentHectotic();decaticDisplay.innerHTML=currentDecatic();ticDisplay.innerHTML=currentTic();deciticDisplay.innerHTML=currentDecitic();centiticDisplay.innerHTML=currentCentitic();},1)
         </script>
         </div>
   </body>
