@@ -819,7 +819,7 @@ function daysSinceDate(mm=0, dd=0, yyyy=0, hh=0, mi=0, ss=0) {
    tictimecallibratedtimeDays += hh * 0.0416;
    tictimecallibratedtimeDays += mi * 0.000694;
    tictimecallibratedtimeDays += ss * 0.00001157407;
-   return(tictimecallliberatedtimeDays)
+   return(tictimecallibratedtimeDays)
  } else {
    tictimecallibratedtimeDays = 0;
    ttctCounter = 1;
@@ -882,7 +882,7 @@ function daysSinceDate(mm=0, dd=0, yyyy=0, hh=0, mi=0, ss=0) {
    tictimecallibratedtimeDays += ss * 0.00001157407;
    tictimecallibratedtimeDays =
      "" + "-" + tictimecallibratedtimeDays;
-   return(tictimecalllibratedtimeDays)
+   return(tictimecallibratedtimeDays)
  }
 }
 
