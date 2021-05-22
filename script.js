@@ -886,7 +886,7 @@ function daysSinceDate(mm=0, dd=0, yyyy=0, hh=0, mi=0, ss=0) {
  }
 }
 
-function currentCustomMegatic(inputDays){
+function currentcustomMegatic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
@@ -970,7 +970,7 @@ function currentCustomMegatic(inputDays){
        decitic * 0.000001) *
        10000000
    ));
-   return(CustomMegatic)
+   return(customMegatic)
 }
 
 function currentCustomLicotic(inputDays){
