@@ -1,4 +1,4 @@
-function currentMegatic(){
+function CurrentMegatic(){
     Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
@@ -93,7 +93,7 @@ function currentMegatic(){
    return(Megatic)
 }
 
-function currentLicotic(){
+function CurrentLicotic(){
     Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
@@ -188,7 +188,7 @@ function currentLicotic(){
    return(licotic)
 }
 
-function currentKilotic(){
+function CurrentKilotic(){
     Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
@@ -283,7 +283,7 @@ function currentKilotic(){
    return(kilotic)
 }
 
-function currentHectotic(){
+function CurrentHectotic(){
     Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
@@ -378,7 +378,7 @@ function currentHectotic(){
    return(hectotic)
 }
 
-function currentDecatic(){
+function CurrentDecatic(){
     Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
@@ -473,7 +473,7 @@ function currentDecatic(){
    return(decatic)
 }
 
-function currentTic(){
+function CurrentTic(){
     Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
@@ -568,7 +568,7 @@ function currentTic(){
    return(tic)
 }
 
-function currentDecitic(){
+function CurrentDecitic(){
     Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
@@ -663,7 +663,7 @@ function currentDecitic(){
    return(decitic)
 }
 
-function currentCentitic(){
+function CurrentCentitic(){
     Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
@@ -886,7 +886,7 @@ function daysSinceDate(mm=0, dd=0, yyyy=0, hh=0, mi=0, ss=0) {
  }
 }
 
-function currentcustomMegatic(inputDays){
+function CurrentcustomMegatic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
@@ -973,7 +973,7 @@ function currentcustomMegatic(inputDays){
    return(customMegatic)
 }
 
-function currentCustomLicotic(inputDays){
+function CurrentCustomLicotic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
@@ -1060,7 +1060,7 @@ function currentCustomLicotic(inputDays){
    return(CustomLicotic)
 }
 
-function currentCustomKilotic(inputDays){
+function CurrentCustomKilotic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
@@ -1147,7 +1147,7 @@ function currentCustomKilotic(inputDays){
    return(CustomKilotic)
 }
 
-function currentCustomHectotic(inputDays){
+function CurrentCustomHectotic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
@@ -1234,7 +1234,7 @@ function currentCustomHectotic(inputDays){
    return(CustomHectotic)
 }
 
-function currentCustomDecatic(inputDays){
+function CurrentCustomDecatic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
@@ -1321,7 +1321,7 @@ function currentCustomDecatic(inputDays){
    return(CustomDecatic)
 }
 
-function currentCustomTic(inputDays){
+function CurrentCustomTic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
@@ -1408,7 +1408,7 @@ function currentCustomTic(inputDays){
    return(tic)
 }
 
-function currentCustomDecitic(inputDays){
+function CurrentCustomDecitic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
@@ -1495,7 +1495,7 @@ function currentCustomDecitic(inputDays){
    return(decitic)
 }
 
-function currentCustomCentitic(inputDays){
+function CurrentCustomCentitic(inputDays){
    customMegatic = Math.floor(
      (inputDays /
        60 /
