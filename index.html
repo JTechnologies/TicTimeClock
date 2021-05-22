@@ -10,8 +10,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body style="background-color: #1847b4;">
+    <script>
+        function getCustomDateTime(){
+          y2t = prompt("Year?");
+          m2t = prompt("Month? (In Number)");
+          d2t = prompt("Day?");
+          h2t = prompt("Hour? (In 24hr Format)");
+          m2t = prompt("Minute?");
+          s2t = prompt("Seconds?");
+          daysFull = daysSinceDate(m2t,d2t,y2t,h2t,m2t,s2t);
+          alert(m2t+"/"+d2t+"/"+y2t+" is "+String(CurrentCustomMegatic()+(CurrentCustomLicotic()*.1)+(CurrentCustomKilotic()*.01)+(CurrentCustomHectotic()*.001)+"0000000000").substring(0,6))
+        } 
+    </script>
     <div style="text-align: center; font-family: 'Inter'; padding-top: 10px;">
     <div style="white-space: nowrap; font-size: 2.5em;"><h1 style="color:#FFF;">tic <span style="color: #ffcf00;">time</span></h1></div>
+    <button onClick="getCustomDateTime();">Calculate Custom Date & Time</button>
     <h3>Today's date is</h3>
     <h1 id="date"></h1>
     <h3>And the time is</h3>
@@ -21,8 +34,8 @@
         var timeDisplay = document.getElementById('time');
         setInterval(
           function(){
-            dateDisplay.innerHTML=(String(currentMegatic()+(currentLicotic()*.1)+(currentKilotic()*.01)+(currentHectotic()*.001))+"0000000000").substring(0,6);
-            timeDisplay.innerHTML=(String((currentDecatic()+(currentTic()*.1)+(currentDecitic()*.01)+(currentCentitic()*.001)))+"00000").substring(0,5);
+            dateDisplay.innerHTML=(String(CurrentMegatic()+(CurrentLicotic()*.1)+(CurrentKilotic()*.01)+(CurrentHectotic()*.001))+"0000000000").substring(0,6);
+            timeDisplay.innerHTML=(String((CurrentDecatic()+(CurrentTic()*.1)+(CurrentDecitic()*.01)+(CurrentCentitic()*.001)))+"00000").substring(0,5);
             },1);
     </script>
         <h3>Megatic</h3>
@@ -52,7 +65,7 @@
         var deciticDisplay = document.getElementById('decitic');
         var centiticDisplay = document.getElementById('centitic');
 
-        setInterval(function(){MegaticDisplay.innerHTML=currentMegatic();licoticDisplay.innerHTML=currentLicotic();kiloticDisplay.innerHTML=currentKilotic();hectoticDisplay.innerHTML=currentHectotic();decaticDisplay.innerHTML=currentDecatic();ticDisplay.innerHTML=currentTic();deciticDisplay.innerHTML=currentDecitic();centiticDisplay.innerHTML=currentCentitic();},1)
+        setInterval(function(){MegaticDisplay.innerHTML=CurrentMegatic();licoticDisplay.innerHTML=CurrentLicotic();kiloticDisplay.innerHTML=CurrentKilotic();hectoticDisplay.innerHTML=CurrentHectotic();decaticDisplay.innerHTML=CurrentDecatic();ticDisplay.innerHTML=CurrentTic();deciticDisplay.innerHTML=CurrentDecitic();centiticDisplay.innerHTML=CurrentCentitic();},1)
         </script>
         </div>
   </body>
