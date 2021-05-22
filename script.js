@@ -1,5 +1,5 @@
 function currentMegatic(){
-    megatic = Math.floor(
+    Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
        60 /
@@ -12,7 +12,7 @@ function currentMegatic(){
        60 /
        24 /
        365.25 -
-       megatic) *
+       Megatic) *
        10
    );
    kilotic = Math.floor(
@@ -21,7 +21,7 @@ function currentMegatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1) *
        100
    );
@@ -31,7 +31,7 @@ function currentMegatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01) *
        1000
@@ -42,7 +42,7 @@ function currentMegatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001) *
@@ -54,7 +54,7 @@ function currentMegatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -67,7 +67,7 @@ function currentMegatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -81,7 +81,7 @@ function currentMegatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -90,11 +90,11 @@ function currentMegatic(){
        decitic * 0.000001) *
        10000000
    );
-   return(megatic)
+   return(Megatic)
 }
 
 function currentLicotic(){
-    megatic = Math.floor(
+    Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
        60 /
@@ -107,7 +107,7 @@ function currentLicotic(){
        60 /
        24 /
        365.25 -
-       megatic) *
+       Megatic) *
        10
    );
    kilotic = Math.floor(
@@ -116,7 +116,7 @@ function currentLicotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1) *
        100
    );
@@ -126,7 +126,7 @@ function currentLicotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01) *
        1000
@@ -137,7 +137,7 @@ function currentLicotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001) *
@@ -149,7 +149,7 @@ function currentLicotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -162,7 +162,7 @@ function currentLicotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -176,7 +176,7 @@ function currentLicotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -189,7 +189,7 @@ function currentLicotic(){
 }
 
 function currentKilotic(){
-    megatic = Math.floor(
+    Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
        60 /
@@ -202,7 +202,7 @@ function currentKilotic(){
        60 /
        24 /
        365.25 -
-       megatic) *
+       Megatic) *
        10
    );
    kilotic = Math.floor(
@@ -211,7 +211,7 @@ function currentKilotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1) *
        100
    );
@@ -221,7 +221,7 @@ function currentKilotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01) *
        1000
@@ -232,7 +232,7 @@ function currentKilotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001) *
@@ -244,7 +244,7 @@ function currentKilotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -257,7 +257,7 @@ function currentKilotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -271,7 +271,7 @@ function currentKilotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -284,7 +284,7 @@ function currentKilotic(){
 }
 
 function currentHectotic(){
-    megatic = Math.floor(
+    Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
        60 /
@@ -297,7 +297,7 @@ function currentHectotic(){
        60 /
        24 /
        365.25 -
-       megatic) *
+       Megatic) *
        10
    );
    kilotic = Math.floor(
@@ -306,7 +306,7 @@ function currentHectotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1) *
        100
    );
@@ -316,7 +316,7 @@ function currentHectotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01) *
        1000
@@ -327,7 +327,7 @@ function currentHectotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001) *
@@ -339,7 +339,7 @@ function currentHectotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -352,7 +352,7 @@ function currentHectotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -366,7 +366,7 @@ function currentHectotic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -379,7 +379,7 @@ function currentHectotic(){
 }
 
 function currentDecatic(){
-    megatic = Math.floor(
+    Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
        60 /
@@ -392,7 +392,7 @@ function currentDecatic(){
        60 /
        24 /
        365.25 -
-       megatic) *
+       Megatic) *
        10
    );
    kilotic = Math.floor(
@@ -401,7 +401,7 @@ function currentDecatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1) *
        100
    );
@@ -411,7 +411,7 @@ function currentDecatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01) *
        1000
@@ -422,7 +422,7 @@ function currentDecatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001) *
@@ -434,7 +434,7 @@ function currentDecatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -447,7 +447,7 @@ function currentDecatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -461,7 +461,7 @@ function currentDecatic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -474,7 +474,7 @@ function currentDecatic(){
 }
 
 function currentTic(){
-    megatic = Math.floor(
+    Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
        60 /
@@ -487,7 +487,7 @@ function currentTic(){
        60 /
        24 /
        365.25 -
-       megatic) *
+       Megatic) *
        10
    );
    kilotic = Math.floor(
@@ -496,7 +496,7 @@ function currentTic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1) *
        100
    );
@@ -506,7 +506,7 @@ function currentTic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01) *
        1000
@@ -517,7 +517,7 @@ function currentTic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001) *
@@ -529,7 +529,7 @@ function currentTic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -542,7 +542,7 @@ function currentTic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -556,7 +556,7 @@ function currentTic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -569,7 +569,7 @@ function currentTic(){
 }
 
 function currentDecitic(){
-    megatic = Math.floor(
+    Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
        60 /
@@ -582,7 +582,7 @@ function currentDecitic(){
        60 /
        24 /
        365.25 -
-       megatic) *
+       Megatic) *
        10
    );
    kilotic = Math.floor(
@@ -591,7 +591,7 @@ function currentDecitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1) *
        100
    );
@@ -601,7 +601,7 @@ function currentDecitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01) *
        1000
@@ -612,7 +612,7 @@ function currentDecitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001) *
@@ -624,7 +624,7 @@ function currentDecitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -637,7 +637,7 @@ function currentDecitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -651,7 +651,7 @@ function currentDecitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -664,7 +664,7 @@ function currentDecitic(){
 }
 
 function currentCentitic(){
-    megatic = Math.floor(
+    Megatic = Math.floor(
      ((new Date().getTime() - new Date(2000, 0, 1)) / 1000 / 60 +
        new Date().getTimezoneOffset()) /
        60 /
@@ -677,7 +677,7 @@ function currentCentitic(){
        60 /
        24 /
        365.25 -
-       megatic) *
+       Megatic) *
        10
    );
    kilotic = Math.floor(
@@ -686,7 +686,7 @@ function currentCentitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1) *
        100
    );
@@ -696,7 +696,7 @@ function currentCentitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01) *
        1000
@@ -707,7 +707,7 @@ function currentCentitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001) *
@@ -719,7 +719,7 @@ function currentCentitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -732,7 +732,7 @@ function currentCentitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -746,7 +746,7 @@ function currentCentitic(){
        60 /
        24 /
        365.25 -
-       megatic -
+       Megatic -
        licotic * 0.1 -
        kilotic * 0.01 -
        hectotic * 0.001 -
@@ -757,7 +757,7 @@ function currentCentitic(){
    );
    return(centitic)
 }
-function getTicForDate(mm, dd, yyyy, hh, mi, ss) {
+function daysSinceDate(mm=0, dd=0, yyyy=0, hh=0, mi=0, ss=0) {
  if (yyyy > 2000) {
    tictimecallibratedtimeDays = 0;
    ttctCounter = 1;
@@ -884,4 +884,700 @@ function getTicForDate(mm, dd, yyyy, hh, mi, ss) {
      "" + "-" + tictimecallibratedtimeDays;
    return(tictimecalllibratedtimeDays)
  }
+}
+
+function currentCustomMegatic(inputDays){
+   customMegatic = Math.floor(
+     (inputDays /
+       60 /
+       24 /
+       365.25
+   ));;
+  customLicotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic) *
+       10
+   ));
+  customKilotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1) *
+       100
+   ));
+  customHectotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01) *
+       1000
+   ));
+  customDecatic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001) *
+       10000
+   ));
+  customTic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001) *
+       100000
+   ));
+   decitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001) *
+       1000000
+   ));
+   centitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001 -
+       decitic * 0.000001) *
+       10000000
+   ));
+   return(CustomMegatic)
+}
+
+function currentCustomLicotic(inputDays){
+   customMegatic = Math.floor(
+     (inputDays /
+       60 /
+       24 /
+       365.25
+   ));
+  customLicotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic) *
+       10
+   ));
+  customKilotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1) *
+       100
+   ));
+  customHectotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01) *
+       1000
+   ));
+  customDecatic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001) *
+       10000
+   ));
+  customTic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001) *
+       100000
+   ));
+   decitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001) *
+       1000000
+   ));
+   centitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001 -
+       decitic * 0.000001) *
+       10000000
+   ));
+   return(CustomLicotic)
+}
+
+function currentCustomKilotic(inputDays){
+   customMegatic = Math.floor(
+     (inputDays /
+       60 /
+       24 /
+       365.25
+   ));
+  customLicotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic) *
+       10
+   ));
+  customKilotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1) *
+       100
+   ));
+  customHectotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01) *
+       1000
+   ));
+  customDecatic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001) *
+       10000
+   ));
+  customTic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001) *
+       100000
+   ));
+   decitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001) *
+       1000000
+   ));
+   centitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001 -
+       decitic * 0.000001) *
+       10000000
+   ));
+   return(CustomKilotic)
+}
+
+function currentCustomHectotic(inputDays){
+   customMegatic = Math.floor(
+     (inputDays /
+       60 /
+       24 /
+       365.25
+   ));
+  customLicotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic) *
+       10
+   ));
+  customKilotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1) *
+       100
+   ));
+  customHectotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01) *
+       1000
+   ));
+  customDecatic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001) *
+       10000
+   ));
+  customTic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001) *
+       100000
+   ));
+   decitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001) *
+       1000000
+   ));
+   centitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001 -
+       decitic * 0.000001) *
+       10000000
+   ));
+   return(CustomHectotic)
+}
+
+function currentCustomDecatic(inputDays){
+   customMegatic = Math.floor(
+     (inputDays /
+       60 /
+       24 /
+       365.25
+   ));
+  customLicotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic) *
+       10
+   ));
+  customKilotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1) *
+       100
+   ));
+  customHectotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01) *
+       1000
+   ));
+  customDecatic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001) *
+       10000
+   ));
+  customTic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001) *
+       100000
+   ));
+   decitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001) *
+       1000000
+   ));
+   centitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001 -
+       decitic * 0.000001) *
+       10000000
+   ));
+   return(CustomDecatic)
+}
+
+function currentCustomTic(inputDays){
+   customMegatic = Math.floor(
+     (inputDays /
+       60 /
+       24 /
+       365.25
+   ));
+  customLicotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic) *
+       10
+   ));
+  customKilotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1) *
+       100
+   ));
+  customHectotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01) *
+       1000
+   ));
+  customDecatic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001) *
+       10000
+   ));
+  customTic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001) *
+       100000
+   ));
+   decitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001) *
+       1000000
+   ));
+   centitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001 -
+       decitic * 0.000001) *
+       10000000
+   ));
+   return(tic)
+}
+
+function currentCustomDecitic(inputDays){
+   customMegatic = Math.floor(
+     (inputDays /
+       60 /
+       24 /
+       365.25
+   ));
+  customLicotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic) *
+       10
+   ));
+  customKilotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1) *
+       100
+   ));
+  customHectotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01) *
+       1000
+   ));
+  customDecatic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001) *
+       10000
+   ));
+  customTic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001) *
+       100000
+   ));
+   decitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001) *
+       1000000
+   ));
+   centitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001 -
+       decitic * 0.000001) *
+       10000000
+   ));
+   return(decitic)
+}
+
+function currentCustomCentitic(inputDays){
+   customMegatic = Math.floor(
+     (inputDays /
+       60 /
+       24 /
+       365.25
+   ));
+  customLicotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic) *
+       10
+   ));
+  customKilotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1) *
+       100
+   ));
+  customHectotic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01) *
+       1000
+   ));
+  customDecatic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001) *
+       10000
+   ));
+  customTic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001) *
+       100000
+   ));
+   decitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001) *
+       1000000
+   ));
+   centitic = Math.floor(
+     ((inputDays /
+       60 /
+       24 /
+       365.25 -
+      customMegatic -
+      customLicotic * 0.1 -
+      customKilotic * 0.01 -
+      customHectotic * 0.001 -
+      customDecatic * 0.0001 -
+      customTic * 0.00001 -
+       decitic * 0.000001) *
+       10000000
+   ));
+   return(centitic)
 }
